@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+requires-python = ">=3.10"
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic_tagger"
+version = "0.0.1"
+
+dependencies = [
+                "torch==2.1.0",
+                "transformers==4.38.1",
+                "accelerate==0.27.2",
+                "bitsandbytes==0.42.0",
+                "pandas==1.5.3",
+                "trl==0.7.11",
+                "datasets==2.18.0",
+                "peft==0.9.0",
+                "scipy==1.11.4",
+                "scikit-learn==1.2.2",
+               ]
+
+[tool.setuptools.packages.find]
+include = ["semtag"]
