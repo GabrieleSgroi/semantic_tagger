@@ -52,9 +52,9 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--temperature', type=float, default=0., help="Temperature of the generation sampling."
                                                                             "0 means deterministic sampling. "
                                                                             "(Default: 0)")
-    parser.add_argument('-c', '--checkpoint', default=None, help="Path to the fine-tuned adapted. If None the "
+    parser.add_argument('-c', '--checkpoint', default=None, help="Path to the fine-tuned adapter. If None the "
                                                                  "default pre-trained model specified in "
-                                                                 "semtag.cfg.ModelCOnfig will be used. (Default: None)")
+                                                                 "semtag.cfg.ModelConfig will be used. (Default: None)")
     parser.add_argument('-l', '--max_new_tokens', type=int, default=32, help="Max number of tokens to generate. "
                                                                              "(Default: 32)")
     parser.add_argument('-f', '--format_tags', default='True', help="Wheter to format the model answer. It can be "
