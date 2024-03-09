@@ -1,6 +1,6 @@
 # Semantic Tagging: Create Meaningful Tags for your Text Data 
 This code is meant for educational purposes only. <br>
-This code accompanies the blog post Semantic Tagging: Create Meaningful Tags for your Text Data [ADD LINK] <br>
+This code accompanies the blog post [Semantic Tagging: Create Meaningful Tags for your Text Data](https://medium.com/p/dcf8d2f24960) <br>
 The default settings use [zephyr-7b-alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha) as the generative model
 and [gte-large](https://huggingface.co/thenlper/gte-large) as the embedding model. Please check the 
 linked model cards for more information and licenses.
